@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularComp';
+
+  someothervar=`
+  ## Markdown from component no code __works__!
+  ---
+  `;
+  somevar=`
+  ## Markdown from component with typescript __works__!
+  ---
+  `;
+  markdowncode=`
+  ## Markdown from component __works__!
+  ---
+  `;
 }
